@@ -59,8 +59,6 @@ redirect_from:
   - /about.html
 ---
 
-{% include base_path %}
-
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
