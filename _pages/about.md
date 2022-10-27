@@ -15,7 +15,7 @@ Education
 
 Work experience
 ======
-* June-August 2020: Product Intern in Ubtech Robotics
+* Jun-Aug 2020: Product Intern in Ubtech Robotics
 
 
 <!-- * Fall 2015: Research Assistant
