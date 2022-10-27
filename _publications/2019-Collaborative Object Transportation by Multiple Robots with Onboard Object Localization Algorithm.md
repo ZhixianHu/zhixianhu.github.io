@@ -10,5 +10,6 @@ citation: 'Z. Hu et al., &quot;Collaborative Object Transportation by Multiple R
  
 
 [Download paper here](https://ieeexplore.ieee.org/document/8961823)
-
+<!-- 
 Recommended citation: Z. Hu et al., "Collaborative Object Transportation by Multiple Robots with Onboard Object Localization Algorithm," <i>2019 IEEE International Conference on Robotics and Biomimetics (ROBIO)</i>, 2019, pp. 2344-2350, doi: 10.1109/ROBIO49542.2019.8961823.
+ -->
