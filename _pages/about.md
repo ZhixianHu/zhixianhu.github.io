@@ -10,12 +10,12 @@ redirect_from:
 
 Education
 ======
-* M.Phil. in Computer and Information Engineering, 2020, The Chinese University of Hong Kong, Shenzhen
-* B.Eng. in Electronic Information Engineering, 2022, The Chinese University of Hong Kong, Shenzhen
+* M.Phil. in Computer and Information Engineering, 2022, The Chinese University of Hong Kong, Shenzhen
+* B.Eng. in Electronic Information Engineering, 2020, The Chinese University of Hong Kong, Shenzhen
 
 Work experience
 ======
-* Summer 2020: Product Intern in Ubtech Robotics
+* June-August 2020: Product Intern in Ubtech Robotics
 
 
 <!-- * Fall 2015: Research Assistant
