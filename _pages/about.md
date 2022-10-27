@@ -34,12 +34,7 @@ Publications
 Skills
 ======
 * Programming languages
-  * Python
-  * Matlab
-  * C++
-  * ROS
-  * R
-  * Java 
+  * Python, Matlab, C++, ROS, R, Java 
 * Softwares
   * SolidWorks
 
