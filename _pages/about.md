@@ -10,8 +10,8 @@ redirect_from:
 
 Education
 ======
-* M.Phil. in Computer and Information Engineering, 2022, The Chinese University of Hong Kong, Shenzhen
-* B.Eng. in Electronic Information Engineering, 2020, The Chinese University of Hong Kong, Shenzhen
+* M.Phil. in Computer and Information Engineering, 2022, The Chinese University of Hong Kong, Shenzhen.
+* B.Eng. in Electronic Information Engineering, 2020, The Chinese University of Hong Kong, Shenzhen.
 
 <!-- * Fall 2015: Research Assistant
   * Github University
