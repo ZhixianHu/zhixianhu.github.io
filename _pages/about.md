@@ -57,7 +57,7 @@ Research Experience
 
 Work experience
 ======
-* Ubtech Robotics. 
+* Ubtech Robotics.   
   Product Intern. Jun-Aug 2020.
   * Enhanced logic design for user interactions and polished interaction interfaces in a teenager programming teaching software.
   * Programmed on testing and debugging a racing car product demo using Arduino and Python.
