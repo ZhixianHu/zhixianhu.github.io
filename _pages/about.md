@@ -13,11 +13,6 @@ Education
 * M.Phil. in Computer and Information Engineering, 2022, The Chinese University of Hong Kong, Shenzhen
 * B.Eng. in Electronic Information Engineering, 2020, The Chinese University of Hong Kong, Shenzhen
 
-Work experience
-======
-* Jun-Aug 2020: Product Intern in Ubtech Robotics
-
-
 <!-- * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
@@ -31,6 +26,41 @@ Publications
   {% endfor %}</ul>
   
 
+Research Experience
+======
+* Studying on tactile perception for robotic stable grasping.  
+  Central Member. Oct 2021 - Present. Shenzhen, CN.
+  * Designed and fabricated a tactile sensor array for contact pressure sensing with stable sensing ability and fast response time
+  *	Working on an algorithm to locate contact positions, to decouple contact forces, and to extract high-level tactile information
+  *	Working on controlling of robot arm and grippers on ROS in reacting to different unstable grasping cases
+
+* Reviewed literatures on perception information processing with tactile sensors                                                                                       
+  Central Member. May 2022 – Oct 2022. Shenzhen, CN.
+  * Surveyed on tactile perception algorithms and corresponding performances as well as practical applications
+  * Wrote a literature review that targets at investigating algorithms on tactile sensor information processing (under review)
+
+* Developed an augmented pointing gesture estimation method                                                                                             
+  Individual Project. Dec 2020 - Sep 2021. Shenzhen, CN.
+  *	Designed a novel interactive mode using pointing gestures in human-robot interaction which integrated spatial information and instruction
+  *	Proposed an augmented pointing estimation method to estimate pointing targets precisely and to integrate instruction delivery smoothly
+  *	Conducted experiments to evaluate the accuracy of the proposed method in pointing estimation and instruction recognition
+
+ * Built a collaborative object transportation leader-follower system  
+   Central Member. Oct 2018 - Sep 2019. Shenzhen, CN.
+   *	Based on collaborative transportation problems, designed a generalized multi-robot leader-follower system 
+   *	Designed an on-board object location algorithm with Python under ROS using a 2D laser radar to track the status of a transporting object
+   *	Accomplished a practical experiment using two mobile robots Turtlebots to transport an object and finished a lane-changing task
+
+  * The Robotics and Artificial Intelligence Lab in CUHKSZ 
+		Research Assistant. Jun 2018 - May 2020. Shenzhen, CN.
+    *	Worked on a formation control problem under leader-follower scheme
+
+Work experience
+======
+* Product Intern in Ubtech Robotics. Jun-Aug 2020.
+  * Enhanced logic design for user interactions and polished interaction interfaces in a teenager programming teaching software
+  * Programmed on testing and debugging a racing car product demo using Arduino and Python
+
 Skills
 ======
 * Programming languages
@@ -38,6 +68,15 @@ Skills
 * Softwares
   * SolidWorks
 
+Activities
+======
+* Secretary-General of CUHKSZ Student Union, Shenzhen, CN. Apr 2017 – Apr 2018.
+* Student Assistant of Office of Student Affairs, CUHKSZ, Shenzhen, CN. Oct 2016 – Jun 2018.
+* Volunteer Teacher, Central Public School, Kathmandu, Nepal.	Dec 2017 – Jan 2018
+
+Award
+======
+Half Entry Scholarship from CUHKSZ for four years undergraduate study
 
 <!-- Talks
 ======
