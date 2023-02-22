@@ -3,7 +3,7 @@ title: "Machine Learning for Tactile Perception: Advancements, Challenges, and O
 collection: publications
 permalink: /publication/2023-Machine Learning for Tactile Perception Advancements Challenges and Opportunities
 excerpt: ' '
-date: To appear
+date: 2023
 venue: 'Advanced Intelligent Systems'
 citation: 'To appear'
 ---
