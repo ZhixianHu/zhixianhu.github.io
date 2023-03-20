@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2023-Machine Learning for Tactile Perception Advancements Challenges and Opportunities
 excerpt: ' '
 date: 2023-2-22
-venue: 'Advanced Intelligent Systems (Accepted)'
+venue: 'Advanced Intelligent Systems'
 citation: 'Hu, Z.*, Lin, L.*, Lin, W., Xu, Y., Xia, X., Peng, Z., Sun, Z. and Wang, Z. (2023), Machine Learning for Tactile Perception: Advancements, Challenges, and Opportunities. Adv. Intell. Syst. 2200371.'
 ---
  
