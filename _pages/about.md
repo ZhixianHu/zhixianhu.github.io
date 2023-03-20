@@ -37,7 +37,7 @@ Research Experience
 * Reviewed literatures on perception information processing with tactile sensors.   
   Central Member. May 2022 – Feb 2023.
   * Surveyed on tactile perception algorithms and corresponding performances as well as practical applications.
-  * Wrote a literature review that targets at investigating algorithms on tactile sensor information processing (accepted by Advanced Intelligent Systems, to appear).
+  * Wrote a literature review that targets at investigating algorithms on tactile sensor information processing.
 
 * Developed an augmented pointing gesture estimation method.  
   Individual Project. Dec 2020 - Sep 2021.
