@@ -64,7 +64,7 @@ Work experience
 
 Skills
 ======
-* Programming languages
+* Programming
   * Python, Matlab, C++, ROS, R, Java 
 * Softwares
   * SolidWorks
