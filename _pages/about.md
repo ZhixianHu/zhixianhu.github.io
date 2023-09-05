@@ -10,6 +10,7 @@ redirect_from:
 
 Education
 ======
+* Current PhD student in Industrial Engineering, Purdue University under the supervision of Professor Juan P Wachs and Professor Yu She. 
 * M.Phil. in Computer and Information Engineering, 2022, The Chinese University of Hong Kong, Shenzhen.
 * B.Eng. in Electronic Information Engineering, 2020, The Chinese University of Hong Kong, Shenzhen.
 
@@ -78,9 +79,7 @@ Activities
 * Volunteer Teacher, Central Public School, Kathmandu, Nepal.
   Dec 2017 – Jan 2018. Kathmandu, NP.
 
-Award
-======
-Half Entry Scholarship from CUHKSZ for four years undergraduate study.
+
 
 <!-- Talks
 ======
