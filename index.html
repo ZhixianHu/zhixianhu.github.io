@@ -229,18 +229,17 @@
     <tr onmouseout="icra22_point_stop()" onmouseover="icra22_point_start()"  bgcolor="#ffffd0">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='icra22_point_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="videos/icra22_point.mp4" type="video/mp4">
-          Your browser does not support the video tag.
+          <img src='images/icra22_point.jpg' width="160" class="static-img">
+          <div class="two" id='icra22_point_image'><video muted autoplay loop>
+            <source src="videos/icra22_point.mp4" type="video/mp4">
+            Your browser does not support the video tag.
           </video>
           </div>
-          <img src='images/icra22_point.jpg' width="160" class="static-img">
         </div>
         <script type="text/javascript">
           function icra22_point_start() {
             document.getElementById('icra22_point_image').style.opacity = "1";
           }
-
           function icra22_point_stop() {
             document.getElementById('icra22_point_image').style.opacity = "0";
           }
@@ -277,6 +276,7 @@
         </td>
       </tr>
     </table>
+
     <script>
       function toggleBibtex(event, bibtexId) {
         var bibtexDiv = document.getElementById(bibtexId);
