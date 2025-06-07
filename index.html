@@ -226,25 +226,15 @@
       </td>
     </tr>
 
-    <tr onmouseout="icra22_point_stop()" onmouseover="icra22_point_start()">
+    <tr>
       <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <img src='images/icra22_point.jpg' width="160" class="static-img">
-          <div class="two" id='icra22_point_image'><video muted autoplay loop>
+        <div style="width:160px; overflow:hidden;">
+          <video muted autoplay loop playsinline style="width:100%; height:100%; object-fit:cover; display:block;">
             <source src="videos/icra22_point.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           </div>
         </div>
-        <script type="text/javascript">
-          function icra22_point_start() {
-            document.getElementById('icra22_point_image').style.opacity = "1";
-          }
-          function icra22_point_stop() {
-            document.getElementById('icra22_point_image').style.opacity = "0";
-          }
-          icra22_point_stop()
-        </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <a href="https://doi.org/10.1109/ICRA46639.2022.9811617">
@@ -256,6 +246,21 @@
         <em>ICRA</em>, 2022
         <br>
         <a href="https://doi.org/10.1109/ICRA46639.2022.9811617">paper</a>
+        <a href="#" onclick="toggleBibtex(event, 'icra22point'); return false;">bibtex</a>
+        <div id="icra22point" style="display:none; position:absolute; background-color:white; border:1px solid #ccc; padding:10px; width:400px; z-index:100; border-radius:15px; overflow:auto; word-wrap:break-word;">
+          <button onclick="copyBibtex(event, 'icra22point-content')" style="float:right; margin-bottom:5px;">Copy</button>
+          <pre id="icra22point-content" style="margin:0;">
+            @inproceedings{hu2022augmented,
+              title={Augmented pointing gesture estimation for human-robot interaction},
+              author={Hu, Zhixian and Xu, Yingtian and Lin, Waner and Wang, Ziya and Sun, Zhenglong},
+              booktitle={2022 International Conference on Robotics and Automation (ICRA)},
+              pages={6416--6422},
+              year={2022},
+              organization={IEEE}
+            }
+          </pre>
+          <a href="#" onclick="toggleBibtex(event, 'icra22point'); return false;">Close</a>
+        </div>
         <p></p>
         <p>
 		      This paper propose an augmented pointing gesture estimation method to enable richer and programmable instructions to be given to the robots.
@@ -272,7 +277,7 @@
           <span class="papertitle">Collaborative Object Transportation by Multiple Robots with Onboard Object Localization Algorithm</span>
         </a>
         <br>
-        <strong>Zhixian Hu*</strong>, Zhixiang Zhao*, Lianxin Zhang, Hengli Liu, Ning Ding, Zhenglong Sun
+        <strong>Zhixian Hu*</strong>, Zhixiang Zhao*, Lianxin Zhang, Hengli Liu, Ning Ding, Zhenglong Sun, Tin Lun Lam, Huihuan Qian
         <br>
         <em>ROBIO</em>, 2019
         <br>
