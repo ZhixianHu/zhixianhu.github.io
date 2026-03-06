@@ -162,3 +162,71 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* 基础链接样式 */
+.bibtex-trigger {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* 折叠容器初始状态 */
+.bibtex-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, opacity 0.3s ease;
+    opacity: 0;
+    margin-top: 0;
+}
+
+
+.bibtex-container.expanded {
+    max-height: 500px; /* 足够容纳 BibTeX 的高度 */
+    opacity: 1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bibtex-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+    padding: 15px;
+}
+
+.bibtex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #666;
+    font-family: sans-serif;
+}
+
+#icra25-code {
+    margin: 0;
+    font-family: 'Fira Code', 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    word-break: break-all;
+    color: #333;
+}
+
+.copy-btn {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+.copy-btn:hover {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}

@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/carrot_transparent.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="script.js"></script>
     
   </head>
 
@@ -103,7 +104,7 @@
         </div>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2503.00133">
+        <a href="https://doi.org/10.1109/ICRA55743.2025.11128051">
           <span class="papertitle">A Magnetic-Actuated Vision-Based Whisker Array for Contact Perception and Grasping</span>
         </a>
         <br>
@@ -112,10 +113,25 @@
         <em>ICRA</em>, 2025
         <br>
 
-        <a href="https://arxiv.org/abs/2503.00133">paper</a> /
+        <a href="https://doi.org/10.1109/ICRA55743.2025.11128051">paper</a> /
         <a href="https://drive.google.com/file/d/1oXucIS3cdXWGzbtYrdDJHEUEbjtxC4Ai/view?usp=sharing">poster</a> /
         <a href="https://www.youtube.com/watch?v=c1pNCxE8F4I">video</a> /
-        <a href="#" onclick="toggleBibtex(event, 'icra25Whisker'); return false;">bibtex</a>
+        <a href="javascript:void(0)" class="bibtex-trigger" onclick="toggleBibtex('icra25Whisker')">bibtex</a>
+          <div id="icra25Whisker" class="bibtex-container">
+              <div class="bibtex-card">
+                  <div class="bibtex-header">
+                      <span>BibTeX Reference</span>
+                      <button class="copy-btn" onclick="copyBibtex(event, 'icra25-code')">Copy</button>
+                  </div>
+                  <pre id="icra25-code">@article{hu2025magnetic,
+            title={A Magnetic-Actuated Vision-Based Whisker Array for Contact Perception and Grasping},
+            author={Hu, Zhixian and Wachs, Juan and She, Yu},
+            journal={arXiv preprint arXiv:2503.00133},
+            year={2025}
+          }</pre>
+              </div>
+          </div>
+        <!-- <a href="#" onclick="toggleBibtex(event, 'icra25Whisker'); return false;">bibtex</a>
         <div id="icra25Whisker" style="display:none; position:absolute; background-color:white; border:1px solid #ccc; padding:10px; width:400px; z-index:100; border-radius:15px; overflow:auto; word-wrap:break-word;">
           <button onclick="copyBibtex(event, 'icra25Whisker-content')" style="float:right; margin-bottom:5px;">Copy</button>
           <pre id="icra25Whisker-content" style="margin:0;">
@@ -127,7 +143,7 @@
             }
           </pre>
           <a href="#" onclick="toggleBibtex(event, 'icra25Whisker'); return false;">Close</a>
-        </div>
+        </div> -->
         <p></p>
         <p>
           This study presents a vision-based magnetic-actuated whisker array sensor that integrates both tactile sensing and the manipulation of delicate objects.
@@ -355,50 +371,6 @@
       </tr>
     </table>
 
-    <script>
-      function toggleBibtex(event, bibtexId) {
-        var bibtexDiv = document.getElementById(bibtexId);
-        if (bibtexDiv.style.display === 'none') {
-          var x = event.pageX;
-          var y = event.pageY;
-          
-          bibtexDiv.style.left = x + 'px';
-          bibtexDiv.style.top = y + 'px';
-          
-          bibtexDiv.style.display = 'block';
-        } else {
-          bibtexDiv.style.display = 'none';
-        }
-      }
-
-      function copyBibtex(event, contentId) {
-        event.stopPropagation();
-        const content = document.getElementById(contentId).textContent;
-        const lines = content.split('\n')
-          .map(line => line.trim())
-          .filter(line => line); // Remove empty lines
-
-        const formattedLines = lines.map((line, index) => {
-          if (index === 0) return line;  // First line
-          if (line === '}') return line;  // Closing brace
-          return '  ' + line;  // All other lines
-        });
-
-        const formattedContent = formattedLines.join('\n');
-
-        navigator.clipboard.writeText(formattedContent)
-          .then(() => {
-            const button = event.target;
-            const originalText = button.textContent;
-            button.textContent = 'Copied!';
-            setTimeout(() => {
-              button.textContent = originalText;
-            }, 1500);
-          })
-          .catch(err => {
-            console.error('Failed to copy:', err);
-          });
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
