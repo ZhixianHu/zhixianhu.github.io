@@ -151,8 +151,6 @@ h2 {
 }
 
 span.highlight {
-  /* background-color: #ffffd0;
-   */
   background-color: #ffffff;
 }
 
@@ -180,7 +178,7 @@ span.highlight {
 
 
 .bibtex-container.expanded {
-    max-height: 500px; /* 足够容纳 BibTeX 的高度 */
+    max-height: 500px;
     opacity: 1;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -203,9 +201,9 @@ span.highlight {
     font-family: sans-serif;
 }
 
-#icra25-code {
+.bibtex-code {
     margin: 0;
-    font-family: 'Fira Code', 'Courier New', monospace;
+    font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
     font-size: 13px;
     line-height: 1.4;
     white-space: pre-wrap;
