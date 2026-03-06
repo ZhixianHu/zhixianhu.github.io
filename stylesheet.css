@@ -163,7 +163,6 @@ span.highlight {
     border-radius: 10px;
 }
 
-/* 基础链接样式 */
 .bibtex-trigger {
     color: #007bff;
     text-decoration: none;
@@ -171,7 +170,6 @@ span.highlight {
     font-weight: 500;
 }
 
-/* 折叠容器初始状态 */
 .bibtex-container {
     max-height: 0;
     overflow: hidden;
