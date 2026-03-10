@@ -362,7 +362,7 @@ html {
     color: #222;
     letter-spacing: -1px; 
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .sub-title {
@@ -440,20 +440,31 @@ html {
     background-color: #1772d0;
 }
 
-.teaser-container {
+.media-container {
     margin: 40px 0;
+    text-align: center;
 }
 
-.teaser-video {
+.media-video {
     width: 80%;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.responsive-img {
+    width: 80%;   
+    max-width: 720px;    
+    height: auto;          
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07); 
+    display: block;    
+    margin: 0 auto;        
 }
 
 .caption {
     font-size: 14px;
     color: #777;
     margin-top: 10px;
+    line-height: 1.5;
 }
 
 .project-section {

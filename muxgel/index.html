@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MuxGel</title>
-    <link rel="shortcut icon" href="../images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon/muxgel.ico" type="image/x-icon">
     <link rel="stylesheet" href="../stylesheet.css">
     <script src="../script.js" defer></script>
 </head>
 <body>
-    <nav class="navbar">
+    <!-- <nav class="navbar">
         <div class="nav-container">
             <a href="../" class="nav-logo">Zhixian Hu</a>
             <ul class="nav-links">
@@ -24,9 +24,17 @@
                 <li><a href="../#experience">Experience</a></li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
 
     <div id="about" class="paper-page-container">
+        
+        <div class="media-container">
+            <video autoplay muted loop playsinline class="media-video">
+                <source src="../videos/iros26_muxgel.mp4" type="video/mp4">
+            </video>
+            <!-- <p class="caption">MuxGel enables simultaneous high-resolution tactile sensing and proximity perception.</p> -->
+        </div>
+
         <h1 class="project-title">
             <span class="main-name">MuxGel</span><br>
             <span class="sub-title">Simultaneous Dual-Modal Visuo-Tactile Sensing<br>
@@ -36,7 +44,7 @@
         <div class="project-authors">
             <span class="author-name">
                 <a href="https://zhixianhu.github.io/" target="_blank" rel="noopener noreferrer">
-                    <strong>Zhixian Hu</strong>
+                    Zhixian Hu
                 </a>
             </span>
             <span class="author-name">
@@ -77,12 +85,10 @@
             <a href="#" class="btn-link">Dataset (Soon)</a>
         </div>
 
-        <div class="teaser-container">
-            <video autoplay muted loop playsinline class="teaser-video">
-                <source src="../videos/iros26_muxgel.mp4" type="video/mp4">
-            </video>
-            <!-- <p class="caption">MuxGel enables simultaneous high-resolution tactile sensing and proximity perception.</p> -->
+        <div class="media-container">
+            <img src="teaser.png" alt="MuxGel Teaser" class="responsive-img">
         </div>
+
 
         <hr class="divider">
 
@@ -92,6 +98,24 @@
                 This project proposes MuxGel, a spatially multiplexed sensor that captures both external visual information and contact-induced tactile signals through a single camera. By using a checkerboard coating pattern, MuxGel interleaves tactile-sensitive regions with transparent windows for external vision. This design maintains standard form factors, allowing for plug-and-play integration into GelSight-style sensors by simply replacing the gel pad. To recover full-resolution vision and tactile signals from the multiplexed inputs, we develop a U-Net-based reconstruction framework. Leveraging a sim-to-real pipeline, our model effectively decouples and restores high-fidelity tactile and visual fields simultaneously. Experiments on unseen objects demonstrate the framework's generalization and accuracy. Furthermore, we demonstrate MuxGel's utility in grasping tasks, where dual-modality feedback facilitates both pre-contact alignment and post-contact interaction. Results show that MuxGel enhances the perceptual capabilities of existing vision-based tactile sensors while maintaining compatibility with their hardware stacks.
             </p>
         </section>
+
+        <section class="project-section">
+            <figure style="margin: 30px 0; text-align: center;">
+                <img src="simData3.pdf" alt="Description" class="responsive-img">
+                <p class="caption">
+                    Large-scale physics-based simulation pipeline for visual-tactile data generation.
+                </p>
+            </figure>  
+
+            <figure style="margin: 30px 0; text-align: center;">
+                <img src="model.pdf" alt="Description" class="responsive-img">
+                <p class="caption">
+                    MuxNet Architecture. A dual-stream framework with a shared ResNet-34 encoder. It takes a 6-channel concatenated tensor (observation + reference) to simultaneously reconstruct high-fidelity vision and tactile modalities. The tactile branch employs a residual learning strategy (Option B) to capture precise contact deformations.
+                </p>
+            </figure>  
+
+        </section>
+
 
         <!-- <section class="project-section">
             <h2>Results & Demos</h2>
