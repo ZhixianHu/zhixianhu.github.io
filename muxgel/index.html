@@ -26,15 +26,8 @@
         </div>
     </nav> -->
 
-    <div id="about" class="paper-page-container">
-        
-        <div class="media-container">
-            <video autoplay muted loop playsinline class="media-video">
-                <source src="../videos/iros26_muxgel.mp4" type="video/mp4">
-            </video>
-            <!-- <p class="caption">MuxGel enables simultaneous high-resolution tactile sensing and proximity perception.</p> -->
-        </div>
-
+    <div class="paper-page-container">
+    
         <h1 class="project-title">
             <span class="main-name">MuxGel</span><br>
             <span class="sub-title">Simultaneous Dual-Modal Visuo-Tactile Sensing<br>
@@ -86,9 +79,11 @@
         </div>
 
         <div class="media-container">
-            <img src="teaser.png" alt="MuxGel Teaser" class="responsive-img">
+            <video autoplay muted loop playsinline class="media-video">
+                <source src="../videos/iros26_muxgel.mp4" type="video/mp4">
+            </video>
+            <!-- <p class="caption">MuxGel enables simultaneous high-resolution tactile sensing and proximity perception.</p> -->
         </div>
-
 
         <hr class="divider">
 
@@ -101,14 +96,21 @@
 
         <section class="project-section">
             <figure style="margin: 30px 0; text-align: center;">
-                <img src="simData3.pdf" alt="Description" class="responsive-img">
+                <img src="teaser.png" alt="Description" class="responsive-img">
+                <p class="caption">
+                    MuxGel enables simultaneous visuo-tactile sensing via spatial multiplexing.
+                </p>
+            </figure>  
+
+            <figure style="margin: 30px 0; text-align: center;">
+                <img src="simData.jpg" alt="Description" class="responsive-img">
                 <p class="caption">
                     Large-scale physics-based simulation pipeline for visual-tactile data generation.
                 </p>
             </figure>  
 
             <figure style="margin: 30px 0; text-align: center;">
-                <img src="model.pdf" alt="Description" class="responsive-img">
+                <img src="model.svg" alt="Description" class="responsive-img">
                 <p class="caption">
                     MuxNet Architecture. A dual-stream framework with a shared ResNet-34 encoder. It takes a 6-channel concatenated tensor (observation + reference) to simultaneously reconstruct high-fidelity vision and tactile modalities. The tactile branch employs a residual learning strategy (Option B) to capture precise contact deformations.
                 </p>
