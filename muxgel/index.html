@@ -7,25 +7,17 @@
     <link rel="shortcut icon" href="../images/favicon/muxgel.ico" type="image/x-icon">
     <link rel="stylesheet" href="../stylesheet.css">
     <script src="../script.js" defer></script>
+    <style>
+    body {
+        padding-top: 0 !important;
+    }
+
+    .paper-page-container {
+        padding-top: 30px;
+    }
+</style>
 </head>
 <body>
-    <!-- <nav class="navbar">
-        <div class="nav-container">
-            <a href="../" class="nav-logo">Zhixian Hu</a>
-            <ul class="nav-links">
-                <li><a href="../#news">News</a></li>
-                <li class="dropdown">
-                    <a href="../#research" class="dropbtn">Research ▾</a>
-                    <div class="dropdown-content">
-                        <a href="#">MuxGel</a>
-                    </div>
-                </li>
-                <li><a href="../#teaching">Teaching</a></li>
-                <li><a href="../#experience">Experience</a></li>
-            </ul>
-        </div>
-    </nav> -->
-
     <div class="paper-page-container">
     
         <h1 class="project-title">
@@ -88,13 +80,6 @@
         <hr class="divider">
 
         <section class="project-section">
-            <h2>Abstract</h2>
-            <p class="abstract-text">
-                This project proposes MuxGel, a spatially multiplexed sensor that captures both external visual information and contact-induced tactile signals through a single camera. By using a checkerboard coating pattern, MuxGel interleaves tactile-sensitive regions with transparent windows for external vision. This design maintains standard form factors, allowing for plug-and-play integration into GelSight-style sensors by simply replacing the gel pad. To recover full-resolution vision and tactile signals from the multiplexed inputs, we develop a U-Net-based reconstruction framework. Leveraging a sim-to-real pipeline, our model effectively decouples and restores high-fidelity tactile and visual fields simultaneously. Experiments on unseen objects demonstrate the framework's generalization and accuracy. Furthermore, we demonstrate MuxGel's utility in grasping tasks, where dual-modality feedback facilitates both pre-contact alignment and post-contact interaction. Results show that MuxGel enhances the perceptual capabilities of existing vision-based tactile sensors while maintaining compatibility with their hardware stacks.
-            </p>
-        </section>
-
-        <section class="project-section">
             <figure style="margin: 30px 0; text-align: center;">
                 <img src="teaser.png" alt="Description" class="responsive-img">
                 <p class="caption">
@@ -102,6 +87,13 @@
                 </p>
             </figure>  
 
+            <h2>Abstract</h2>
+            <p class="abstract-text">
+                This project proposes MuxGel, a spatially multiplexed sensor that captures both external visual information and contact-induced tactile signals through a single camera. By using a checkerboard coating pattern, MuxGel interleaves tactile-sensitive regions with transparent windows for external vision. This design maintains standard form factors, allowing for plug-and-play integration into GelSight-style sensors by simply replacing the gel pad. To recover full-resolution vision and tactile signals from the multiplexed inputs, we develop a U-Net-based reconstruction framework. Leveraging a sim-to-real pipeline, our model effectively decouples and restores high-fidelity tactile and visual fields simultaneously. Experiments on unseen objects demonstrate the framework's generalization and accuracy. Furthermore, we demonstrate MuxGel's utility in grasping tasks, where dual-modality feedback facilitates both pre-contact alignment and post-contact interaction. Results show that MuxGel enhances the perceptual capabilities of existing vision-based tactile sensors while maintaining compatibility with their hardware stacks.
+            </p>
+        </section>
+
+        <section class="project-section">
             <figure style="margin: 30px 0; text-align: center;">
                 <img src="simData.png" alt="Description" class="responsive-img">
                 <p class="caption">
