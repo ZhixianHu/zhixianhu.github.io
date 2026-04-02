@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuxGel</title>
+    <link rel="shortcut icon" href="../images/favicon/muxgel.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <script src="../script.js" defer></script>
+    <style>
+    body {
+        padding-top: 0 !important;
+    }
+
+    .paper-page-container {
+        padding-top: 30px;
+    }
+</style>
+</head>
+<body>
+    <div class="paper-page-container">
+    
+        <h1 class="project-title">
+            <span class="main-name">MuxGel</span><br>
+            <span class="sub-title">Simultaneous Dual-Modal Visuo-Tactile Sensing<br>
+            via Spatially Multiplexing and Deep Reconstruction</span>
+        </h1>
+        
+        <div class="project-authors">
+            <span class="author-name">
+                <a href="https://zhixianhu.github.io/" target="_blank" rel="noopener noreferrer">
+                    Zhixian Hu
+                </a>
+            </span>
+            <span class="author-name">
+                <a href="https://zhengtongxu.github.io/website/" target="_blank" rel="noopener noreferrer">
+                    Zhengtong Xu
+                </a>
+            </span>
+            <span class="author-name">
+                <a href="https://sheerazathar.github.io/" target="_blank" rel="noopener noreferrer">
+                    Sheeraz Athar
+                </a>
+            </span>
+            <span class="author-name">
+                <a href="https://web.ics.purdue.edu/~jpwachs/" target="_blank" rel="noopener noreferrer">
+                    Juan Wachs
+                </a>
+            </span>
+            <span class="author-name">
+                <a href="https://www.purduemars.com/" target="_blank" rel="noopener noreferrer">
+                    Yu She
+                </a>
+            </span>
+            
+            <div class="single-affiliation">
+                Edwardson School of Industrial Engineering, Purdue University
+            </div>
+        </div>
+
+        <div class="project-venue">
+            Under Review at IROS 2026
+        </div>
+
+        <div class="project-links">
+            <!-- <a href="#" class="btn-link">Paper</a> -->
+            <a href="https://arxiv.org/abs/2603.09761" class="btn-link">ArXiv</a>
+            <!-- <a href="https://www.youtube.com/..." class="btn-link">Video</a> -->
+            <a href="https://github.com/zhixianhu/muxGel" class="btn-link">Code</a>
+            <a href="https://huggingface.co/datasets/zhixianhu/muxGel" class="btn-link">Dataset</a>
+        </div>
+
+        <div class="media-container">
+            <video autoplay muted loop playsinline class="media-video">
+                <source src="../videos/iros26_muxgel.mp4" type="video/mp4">
+            </video>
+            <!-- <p class="caption">MuxGel enables simultaneous high-resolution tactile sensing and proximity perception.</p> -->
+        </div>
+
+        <hr class="divider">
+
+        <section class="project-section">
+            <figure style="margin: 30px 0; text-align: center;">
+                <img src="teaser.png" alt="Description" class="responsive-img">
+                <p class="caption">
+                    MuxGel enables simultaneous visuo-tactile sensing via spatial multiplexing.
+                </p>
+            </figure>  
+
+            <h2>Abstract</h2>
+            <p class="abstract-text">
+                This project proposes MuxGel, a spatially multiplexed sensor that captures both external visual information and contact-induced tactile signals through a single camera. By using a checkerboard coating pattern, MuxGel interleaves tactile-sensitive regions with transparent windows for external vision. This design maintains standard form factors, allowing for plug-and-play integration into GelSight-style sensors by simply replacing the gel pad. To recover full-resolution vision and tactile signals from the multiplexed inputs, we develop a U-Net-based reconstruction framework. Leveraging a sim-to-real pipeline, our model effectively decouples and restores high-fidelity tactile and visual fields simultaneously. Experiments on unseen objects demonstrate the framework's generalization and accuracy. Furthermore, we demonstrate MuxGel's utility in grasping tasks, where dual-modality feedback facilitates both pre-contact alignment and post-contact interaction. Results show that MuxGel enhances the perceptual capabilities of existing vision-based tactile sensors while maintaining compatibility with their hardware stacks.
+            </p>
+        </section>
+
+        <section class="project-section">
+            <figure style="margin: 30px 0; text-align: center;">
+                <img src="simData.png" alt="Description" class="responsive-img">
+                <p class="caption">
+                    Large-scale physics-based simulation pipeline for visual-tactile data generation.
+                </p>
+            </figure>  
+
+            <figure style="margin: 30px 0; text-align: center;">
+                <img src="model.png" alt="Description" class="responsive-img">
+                <p class="caption">
+                    MuxNet Architecture. A dual-stream framework with a shared ResNet-34 encoder. It takes a 6-channel concatenated tensor (observation + reference) to simultaneously reconstruct high-fidelity vision and tactile modalities. The tactile branch employs a residual learning strategy (Option B) to capture precise contact deformations.
+                </p>
+            </figure>  
+
+        </section>
+
+
+        <!-- <section class="project-section">
+            <h2>Results & Demos</h2>
+            <div class="video-grid">
+                <div class="grid-item">
+                    <video autoplay muted loop playsinline src="../videos/demo1.mp4"></video>
+                    <p>Gentle Interaction with Soft Objects</p>
+                </div>
+                <div class="grid-item">
+                    <video autoplay muted loop playsinline src="../videos/demo2.mp4"></source></video>
+                    <p>Spatially Multiplexed Reconstruction</p>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="project-section">
+            <h2>BibTeX</h2>
+            <div class="bibtex-card">
+                <pre id="muxgel-code" class="bibtex-code">
+@article{hu2026muxgel,
+  title={MuxGel: Simultaneous Dual-Modal Visuo-Tactile Sensing via Spatially Multiplexing and Deep Reconstruction},
+  author={Hu, Zhixian and Xu, Zhengtong and Athar, Sheeraz and Wachs, Juan and She, Yu},
+  journal={arXiv preprint arXiv:2603.09761},
+  year={2026}
+}
+</pre>
+                <button class="copy-btn" onclick="copyBibtex(event, 'muxgel-code')">Copy</button>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
